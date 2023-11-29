@@ -1,0 +1,25 @@
+@charset "UTF-8";
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css");
+/* font-family: 'Pretendard'; */
+
+/* COMMON - S */
+*{box-sizing: border-box;}
+/* *::after , *::after{box-sizing: border-box;} */
+.hide {
+  width: 0;height: 0; overflow: hidden;
+  font-size: 0; line-height: 0; text-indent: -9999px;
+  position: absolute; left: -9999px;
+}
+/* .clearfix::after{content: ""; display: block; clear: both;} */
+img {
+  width: 100%; max-width: 100%;
+  vertical-align: top;/* display:block */
+}
+a {text-decoration: none; color: inherit;}
+body{
+  word-break: break-all;  -webkit-text-size-adjust : 100%;  -webkit-font-smoothing : antialiased;
+  font: 16px 1.2 'Pretendard', dotum, sans-serif ;
+}
+
+
+/* COMMON - E */

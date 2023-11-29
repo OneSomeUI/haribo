@@ -1,0 +1,858 @@
+@charset "UTF-8";
+
+/* VISUAL - S */
+.visual {
+  width: 100%;
+  height: 900px;
+  background-color: #bd8e1d;
+  z-index: 20;
+}
+.inner {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+.visual-inner {
+  width: 80%;
+  max-width: 1600px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+.visual-tit {
+  width: 80%;
+  padding-bottom: 100px;
+}
+.visual-tit h2 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+}
+.visual-tit h3 {
+  padding-top: 15px;
+  font-weight: 700;
+  font-size: 80px;
+  color: #fff;
+}
+.visual-poto {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  width: 90%;
+  transform: rotate(-10deg);
+  padding-left: 0px;
+  padding-top: 270px;
+}
+.visual-poto a {
+  position: relative;
+}
+.visual-poto a svg {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.visual-poto a svg:nth-last-child(1) {
+  fill: #fff;
+}
+.visual-poto a svg:nth-last-child(2) {
+  z-index: 10;
+  left: -67px;
+  top: 11px;
+  fill: #f00;
+}
+.visual-product img {
+  width: 90%;
+  height: 90%;
+}
+/* VISUAL - E */
+
+/* GOLBDAREN - S */
+.goldbären .inner {
+  width: 80%;
+  height: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+.goldbären-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.goldbären-wrap .goldbären-box {
+  position: absolute;
+  left: 15%;
+  top: 400px;
+  transform: translate(0, -50%);
+}
+.goldbären-wrap .goldbären-box .goldbären-tit {
+  font-weight: 700;
+  font-size: 50px;
+  color: #fff;
+  padding-bottom: 30px;
+  z-index: 10;
+}
+.goldbären-wrap .goldbären-box p {
+  width: 70%;
+  font-weight: 500;
+  line-height: 30px;
+  font-size: 18px;
+  color: #fff;
+  z-index: 10;
+}
+.goldbären-wrap svg {
+  width: 95%;
+  height: 65%;
+  fill: #bd8e1d;
+}
+.goldbären-bear-standard {
+  padding-left: 100px;
+  padding-top: 450px;
+}
+.goldbären-bear-standard img {
+  width: 100%;
+  height: 100%;
+}
+
+/* GOLBDAREN - E */
+
+/* COMPONENT - S */
+.component-inner {
+  display: flex;
+}
+.component-inner figure {
+  flex: 1;
+}
+.component-inner figure img {
+  width: 100%;
+  height: 100%;
+}
+.component-box {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #bd8e1d;
+}
+.component-box .component-tit h3 {
+  font-weight: 700;
+  font-size: 120px;
+  color: #ffeb06;
+}
+.component-box .component-tit p {
+  padding-top: 60px;
+  font-weight: 300;
+  font-size: 18px;
+  color: #fff;
+}
+/* COMPONENT - E */
+
+/* INFORMATION - S */
+.information {
+  background-color: #bd8e1d;
+}
+.information .inner {
+  width: 80%;
+  height: 700px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.information .inner .information-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  flex: 0 0 350px;
+  padding: 80px 0 0 0;
+}
+.information .inner .information-top button {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.information .inner .information-top button svg {
+  height: 80%;
+  fill: #d4b44b;
+}
+.information .inner .information-top button.on svg {
+  height: 80%;
+  fill: #ffeb06;
+}
+.information .inner .information-bottom {
+  flex: 0 0 700px;
+  height: 550px;
+  background: url(/img/roundedRec.svg) no-repeat 50% 50% / contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: unset;
+  position: unset;
+  left: unset;
+  top: unset;
+  margin: 100px 0 0 0;
+}
+.information .inner .information-bottom > div {
+  display: none;
+  position: unset;
+  left: unset;
+  top: unset;
+  transform: unset;
+}
+.information .inner .information-bottom > div.on {
+  display: block;
+}
+.food-nutrition-information .food-nutrition-information-box {
+  width: 400px;
+}
+.food-nutrition-information-box .food-nutrition-information-graph {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 300;
+  color: #000;
+}
+.food-nutrition-information-graph:nth-child(1) {
+  font-weight: 700;
+  font-size: 18px;
+  padding-bottom: 25px;
+}
+.food-nutrition-information-graph:nth-child(2) {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #000;
+}
+.food-nutrition-information-graph:nth-child(3) {
+  padding-top: 25px;
+  line-height: 30px;
+}
+.food-nutrition-information-graph:nth-child(4) {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #000;
+}
+.food-nutrition-information-graph:nth-child(5) {
+  padding-top: 25px;
+  line-height: 30px;
+}
+.food-nutrition-information-graph:nth-child(6) {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #000;
+}
+.food-nutrition-information-graph:nth-child(7) {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #000;
+}
+.food-nutrition-information-graph:nth-child(8) {
+  padding-top: 25px;
+}
+.food-nutrition-information p {
+  width: 80%;
+  padding-left: 70px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 25px;
+  color: #000;
+}
+.information-bear-standard {
+  transform: scaleX(-1);
+  position: absolute;
+  left: 0;
+  top: 53%;
+}
+.information-bear-standard img {
+  width: 230px;
+  height: 330px;
+}
+/* INFORMATION - E */
+
+/* PROSUCT - S */
+.product .inner {
+  height: 1000px;
+  width: 80%;
+}
+.product .inner h2 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #005ca9;
+  padding: 150px 0 50px 0;
+}
+.swiper {
+  width: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 600px;
+  padding: 50px 5px 50px 0;
+}
+.swiper-slide:nth-child(1) a {
+  transform: rotate(5deg);
+  transition: all 0.3s;
+}
+.swiper-slide:nth-child(2) a {
+  transform: rotate(-5deg);
+  transition: all 0.3s;
+}
+.swiper-slide:nth-child(3) a {
+  transform: rotate(5deg);
+  transition: all 0.3s;
+}
+.swiper-slide:nth-child(4) a {
+  transform: rotate(-5deg);
+  transition: all 0.3s;
+}
+.swiper-slide:nth-child(5) a {
+  transform: rotate(5deg);
+  transition: all 0.3s;
+}
+.swiper-slide:nth-child(6) a {
+  transform: rotate(-5deg);
+  transition: all 0.3s;
+}
+.swiper-slide:nth-child(7) a {
+  transform: rotate(5deg);
+  transition: all 0.3s;
+}
+.swiper-slide:nth-child(8) a {
+  transform: rotate(-5deg);
+  transition: all 0.3s;
+}
+.swiper-slide a:hover {
+  transform: rotate(0deg) scale(1.1);
+}
+.swiper-slide a figure img {
+  width: 85%;
+  height: 60%;
+}
+.swiper-horizontal > .swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal, .swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite, .swiper-vertical > .swiper-pagination-progressbar {
+  display: flex;
+}
+.swiper-horizontal > .swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal, .swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite, .swiper-vertical > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
+  width: 60%;
+  left: 20%;
+  top: 570px;
+}
+/* PROSUCT - E */
+/* QUESTION - S */
+.question {
+  background-color: #005ca9;
+  height: 100%;
+}
+.question .inner {
+  width: 80%;
+}
+.question-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.question-box figure img {
+  padding: 100px 0;
+  width: 100%;
+  border-radius: 900px 868px 867px 518px / 1079px 1656px 841px 908px;
+}
+.question-tit {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 60px;
+}
+.question-tit h3 {
+  padding-bottom: 40px;
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+}
+.question-tit p {
+  font-weight: 700;
+  padding: 0 0 30px 30px;
+  font-size: 30px;
+  color: #ffeb06;
+}
+.question-tit span a {
+  padding: 0 0 30px 30px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+.question-tit .more {
+  padding: 30px 0;
+  text-decoration: none;
+}
+.question-tit .more span {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  margin: 50px 20px 40px 10px;
+}
+.question-tit .more svg {
+  fill: #ffeb06;
+  width: 89px;
+  height: 25px;
+  transition: all 0.2s;
+}
+.question-tit .more:hover svg {
+  transform: translateX(12px)
+}
+/* QUESTION - E */
+
+/* RELATED - S */
+.related .inner {
+  width: 80%;
+  height: 750px;
+}
+.related-wrap {
+  padding-top: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+.related-wrap .more {
+  text-decoration: none;
+}
+.related-wrap .more span {
+  margin-left: 10px;
+}
+.related-wrap a figure {
+  width: 380px;
+  height: 300px;
+}
+.related-wrap a figure img {
+  width: 100%;
+}
+.related-tit p {
+  padding: 20px 0 120px 0;
+  padding-bottom: 40px;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #005ca9;
+  height: 110px;
+}
+.related-tit svg {
+  fill: #f00;
+  width: 89px;
+  height: 25px;
+  transition: all 0.2s;
+}
+.related-tit span {
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+  margin: 50px 0 40px 0;
+}
+.related-wrap .more:hover svg {
+  transform: translateX(12px)
+}
+/* RELATED - E */
+
+@media screen and (max-width : 1200px) {
+  .visual-tit {
+    padding-bottom: 180px;
+  }
+  .visual-tit h3 {
+    font-size: 60px;
+    color: #fff;
+  }
+  .visual-poto {
+    gap: 5px;
+    width: 90%;
+    padding-top: 180px;
+  }
+  .goldbären-wrap .goldbären-box {
+    left: 22%;
+  }
+  .goldbären-wrap .goldbären-box .goldbären-tit {
+    /* font-weight: 700; */
+    font-size: 50px;
+  }
+  .goldbären-wrap .goldbären-box p {
+    width: 70%;
+    /* font-weight: 500; */
+    line-height: 22px;
+    font-size: 16px;
+  }
+  .goldbären-bear-standard img {
+    /* width: 100%; */
+    height: 80%;
+  }
+  /* GOLBDAREN - E */
+
+  /* COMPONENT - S */
+  .component-inner {
+    display: block;
+  }
+  .component-box {
+    height: 300px;
+  }
+  .component-box .component-tit {
+    padding: 0 20px;
+  }
+  .component-box .component-tit h3 {
+    /* font-weight: 700; */
+    font-size: 80px;
+  }
+  .information .inner {
+    width: 80%;
+    height: 1000px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: unset;
+  }
+  .information .inner .information-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    flex: 0 0 100PX;
+    padding: 54px 0 0 0;
+  }
+  .information .inner .information-top button {
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  .information .inner .information-top button svg {
+    height: 80%;
+    fill: #d4b44b;
+  }
+  .information .inner .information-top button.on svg {
+    height: 80%;
+    fill: #ffeb06;
+  }
+  .information .inner .information-bottom {
+    flex: 0 0 600px;
+    height: 500px;
+    background: url(/img/roundedRec.svg) no-repeat 50% 50% / contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: unset;
+    position: unset;
+    left: unset;
+    top: unset;
+    margin: 30px 0 0 0;
+  }
+  .information .inner .information-bottom > div {
+    display: none;
+    position: unset;
+    left: unset;
+    top: unset;
+    transform: unset;
+  }
+  .information-bear-standard {
+    display: none;
+  }
+  /* INFORMATION - E */
+  /* PROSUCT - S */
+  .product .inner {
+    height: 1000px;
+    width: 80%;
+  }
+  .product .inner h2 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #005ca9;
+    padding: 150px 0 50px 0;
+  }
+  .swiper {
+    width: 100%;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    padding: 50px 5px 50px 0;
+  }
+  .swiper-slide:nth-child(1) a {
+    transform: rotate(5deg);
+    transition: all 0.3s;
+  }
+  .swiper-slide:nth-child(2) a {
+    transform: rotate(-5deg);
+    transition: all 0.3s;
+  }
+  .swiper-slide:nth-child(3) a {
+    transform: rotate(5deg);
+    transition: all 0.3s;
+  }
+  .swiper-slide:nth-child(4) a {
+    transform: rotate(-5deg);
+    transition: all 0.3s;
+  }
+  .swiper-slide:nth-child(5) a {
+    transform: rotate(5deg);
+    transition: all 0.3s;
+  }
+  .swiper-slide:nth-child(6) a {
+    transform: rotate(-5deg);
+    transition: all 0.3s;
+  }
+  .swiper-slide:nth-child(7) a {
+    transform: rotate(5deg);
+    transition: all 0.3s;
+  }
+  .swiper-slide:nth-child(8) a {
+    transform: rotate(-5deg);
+    transition: all 0.3s;
+  }
+  .swiper-slide a:hover {
+    transform: rotate(0deg) scale(1.1);
+  }
+  .swiper-slide a figure img {
+    width: 85%;
+    height: 60%;
+  }
+  .swiper-horizontal > .swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal, .swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite, .swiper-vertical > .swiper-pagination-progressbar {
+    display: flex;
+  }
+  .swiper-horizontal > .swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal, .swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite, .swiper-vertical > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
+    width: 60%;
+    left: 20%;
+    top: 570px;
+  }
+  .question-box {
+    flex-direction: column;
+  }
+  .question-box figure {
+    text-align: center;
+  }
+  .question-box figure img {
+    padding: 45px 0;
+  }
+  .question-tit {
+    width: 80%;
+    /* display: flex;
+  flex-direction: column;
+  padding-left: 60px; */
+  }
+  .question-tit h3 {
+    padding-bottom: 35px;
+    font-size: 50px;
+    /* font-weight: 700;
+  color: #fff; */
+  }
+  .question-tit p {
+    padding: 0 0 20px 20px;
+    font-size: 23px;
+    /* font-weight: 700;
+  color: #ffeb06; */
+  }
+  .question-tit span {
+    padding: 0 0 20px 20px;
+    /* font-weight: 500;
+  font-size: 18px;
+  color: #fff; */
+  }
+  .question-tit .more {
+    padding-bottom: 45px;
+  }
+  .question-tit .more span {
+    font-size: 25px;
+  }
+  /* QUESTION - E */
+  /* RELATED - S */
+  .related .inner {
+    width: 80%;
+    height: 1100px;
+  }
+  .related-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    gap: 20px;
+  }
+  .related-wrap .more {
+    /* text-decoration: none; */
+    display: flex;
+    gap: 100px;
+  }
+  .related-excellence .more {
+    flex-direction: row-reverse;
+  }
+  .related-tit p {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .related-tit span {
+    font-size: 25px;
+  }
+  .related-wrap .more:hover svg {
+    transform: translateX(12px)
+  }
+  /* RELATED - E */
+}
+
+@media screen and (max-width : 780px) {
+  /* VISUAL - S */
+  .visual-tit h2 {
+    font-size: 28px;
+  }
+  .visual-tit h3 {
+    font-size: 40px;
+  }
+  .visual-poto {
+    padding-top: 0;
+  }
+  /* VISUAL - E */
+
+  /* INFORMATION - S */
+  .information .inner .information-top button {
+    font-size: 40px;
+  }
+  .information .inner .information-bottom {
+    flex: 0 0 600px;
+  }
+  .food-nutrition-information .food-nutrition-information-box {
+    width: 250px;
+  }
+  .food-nutrition-information-box .food-nutrition-information-graph {
+    font-size: 18px;
+  }
+  .food-nutrition-information-graph:nth-child(1) {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  .food-nutrition-information-graph:nth-child(2) {
+    padding-bottom: 10px;
+  }
+  .food-nutrition-information-graph:nth-child(3) {
+    padding-top: 10px;
+    line-height: 20px;
+  }
+  .food-nutrition-information-graph:nth-child(4) {
+    padding-bottom: 10px;
+  }
+  .food-nutrition-information-graph:nth-child(5) {
+    padding-top: 10px;
+    line-height: 20px;
+  }
+  .food-nutrition-information-graph:nth-child(6) {
+    padding-bottom: 10px;
+  }
+  .food-nutrition-information-graph:nth-child(7) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .food-nutrition-information-graph:nth-child(8) {
+    padding-top: 10px;
+  }
+  .food-nutrition-information p {
+    font-size: 16px;
+  }
+  .food-nutrition-information p {
+    padding-left: 40px;
+  }
+  /* INFORMATION - E */
+
+  /* GOLBDAREN - S */
+  .goldbären .inner {
+    width: 90%;
+  }
+  .goldbären-wrap .goldbären-box .goldbären-tit {
+    font-size: 45px;
+  }
+  .goldbären-wrap .goldbären-box p {
+    line-height: 22px;
+    font-size: 16px;
+  }
+  .goldbären-wrap svg {
+    height: 60%;
+  }
+  .goldbären-bear-standard {
+    padding-left: 0px;
+    padding-top: 650px;
+  }
+  .goldbären-bear-standard img {
+    width: 142%;
+    height: 80%;
+  }
+  /* GOLBDAREN - E */
+
+  /* PROSUCT - S */
+  .product .inner h2 {
+    font-size: 45px;
+  }
+  /* PROSUCT - E */
+  /* QUESTION - S */
+  .question-box figure {
+    text-align: center;
+  }
+  .question-box figure img {
+    width: 90%;
+    padding: 30px 0;
+  }
+  .question-tit {
+    padding-left: 20px;
+  }
+  .question-tit h3 {
+    padding-bottom: 28px;
+    font-size: 40px;
+  }
+  .question-tit p {
+    padding: 0 0 15px 20px;
+    font-size: 23px;
+  }
+  .question-tit span {
+    padding: 0 0 15px 20px;
+    font-size: 16px;
+  }
+  .question-tit .more {
+    padding-bottom: 30px;
+  }
+  /* QUESTION - E */
+  /* RELATED - S */
+  .related .inner {
+    height: unset;
+    padding: 0 0 50px 0;
+  }
+  .related-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    gap: 50px;
+  }
+  .related-wrap .more {
+    justify-content: center;
+    /* text-decoration: none; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .related-excellence .more {
+    flex-direction: unset;
+  }
+  .related-wrap a figure {
+    flex: 0 0 380px;
+    height: 300px;
+  }
+  .related-tit {
+    flex: 0 0 380px;
+  }
+  .related-tit p {
+    padding: 10px 0 40px 0;
+    font-size: 20px;
+    line-height: 30px;
+    height: 60px;
+  }
+  /* RELATED - E */
+}

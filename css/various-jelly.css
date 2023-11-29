@@ -1,0 +1,539 @@
+@charset "UTF-8";
+
+/* VISUAL - S */
+.visual {
+  width: 100%;
+  height: 700px;
+  background: url(/haribo/img/produktion_mitarbeiterin_figuren.png) no-repeat 50% 50% / cover;
+}
+.visual-inner {
+  width: 80%;
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.red-card {
+  width: 100%;
+  height: 480px;
+  background: url(/haribo/img/s.svg) no-repeat 0 0 / contain;
+  z-index: 10;
+  margin-top: 350px;
+  fill: #d8232a;
+}
+.red-card h3 {
+  padding: 110px 0 0 60px;
+  width: 410px;
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+}
+.red-card p {
+  padding: 30px 0 0 60px;
+  width: 45%;
+  height: 100%;
+  font-size: 16px;
+  padding-top: 20px;
+  color: #fff;
+}
+.visual-bear {
+  padding-top: 520px;
+}
+.visual-bear img {
+  width: 160px;
+  height: 180px;
+}
+/* VISUAL - E */
+
+/* jelly-text - S */
+.jelly-text .inner {
+  width: 80%;
+  max-width: 1600px;
+  margin: 0 auto;
+  height: 2500px;
+  padding-top: 200px;
+}
+.jelly-text-header h2 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #d8232a;
+  padding: 40px 0;
+}
+.jelly-text-header .jelly-text-main {
+  padding: 10px 0 0 50px;
+  width: 60%;
+}
+.jelly-text-header .jelly-text-main h4 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+  padding: 0 0;
+}
+.jelly-text-header .jelly-text-main p {
+  font-size: 22px;
+  font-weight: 300;
+  color: #000;
+  line-height: 35px;
+  padding: 40px 0;
+}
+.jelly-text-main p:nth-child(6) {
+  padding: 0 0 40px 0;
+}
+.swiper {
+  width: 100%;
+  height: 830px;
+  padding-top: 40px;
+}
+.swiper-slide {
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.swiper-slide p {
+  width: 60%;
+  font-size: 18px;
+  font-weight: 300;
+  color: #005ca9;
+  padding: 20px 0 10px 0;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 750px;
+  object-fit: cover;
+}
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  background-color: #fff;
+  width: 100px;
+  height: 20px;
+  border-radius: 30px
+}
+.swiper-button-next {
+  background-color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px
+}
+.swiper-button-prev {
+  background-color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px
+}
+.swiper-button-next svg {
+  width: 30px;
+  height: 30px;
+  fill: #d8232a;
+}
+.swiper-button-prev svg {
+  width: 30px;
+  height: 30px;
+  fill: #d8232a;
+  transform: scaleX(-1);
+}
+.swiper-pagination {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  padding: 5px 5px;
+  background-color: #fff;
+  margin: 100px auto;
+  border-radius: 30px
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+  content: "";
+  font-size: 0px;
+}
+.swiper-pagination > span {
+  width: 10px;
+  height: 10px;
+  background-color: #d8232a;
+}
+/* jelly-text - E */
+
+/* COMPONENT - S */
+.component-inner {
+  display: flex;
+}
+.component-inner figure {
+  flex: 1;
+}
+.component-inner figure img {
+  width: 100%;
+  height: 100%;
+}
+.component-box {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff8200;
+}
+.component-box .component-tit h3 {
+  font-weight: 700;
+  font-size: 90px;
+  color: #ffeb06;
+}
+.component-box .component-tit p {
+  padding-top: 60px;
+  font-weight: 300;
+  font-size: 18px;
+  color: #fff;
+}
+/* COMPONENT - E */
+/* QUESTION - S */
+.question {
+  background-color: #005ca9;
+  height: 100%;
+}
+.question .inner {
+  width: 80%;
+}
+.question-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.question-box figure img {
+  padding: 100px 0;
+  width: 100%;
+  border-radius: 900px 868px 867px 518px / 1079px 1656px 841px 908px;
+}
+.question-tit {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 60px;
+}
+.question-tit h3 {
+  padding-bottom: 40px;
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+}
+.question-tit p {
+  font-weight: 700;
+  padding: 0 0 30px 30px;
+  font-size: 30px;
+  color: #ffeb06;
+}
+.question-tit span a {
+  padding: 0 0 30px 30px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+.question-tit .more {
+  padding: 30px 0;
+  text-decoration: none;
+}
+.question-tit .more span {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  margin: 50px 20px 40px 10px;
+}
+.question-tit .more svg {
+  fill: #ffeb06;
+  width: 89px;
+  height: 25px;
+  transition: all 0.2s;
+}
+.question-tit .more:hover svg {
+  transform: translateX(12px)
+}
+/* QUESTION - E */
+
+/* RELATED - S */
+.related .inner {
+  width: 80%;
+  height: 750px;
+}
+.related-wrap {
+  padding-top: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+.related-wrap .more {
+  text-decoration: none;
+}
+.related-wrap .more span {
+  margin-left: 10px;
+}
+.related-wrap a figure {
+  width: 380px;
+  height: 300px;
+}
+.related-wrap a figure img {
+  width: 100%;
+}
+.related-tit p {
+  padding: 20px 0 120px 0;
+  padding-bottom: 40px;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #005ca9;
+}
+.related-tit svg {
+  fill: #f00;
+  width: 89px;
+  height: 25px;
+  transition: all 0.2s;
+}
+.related-tit span {
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+  margin: 50px 0 40px 0;
+}
+.related-wrap .more:hover svg {
+  transform: translateX(12px)
+}
+/* RELATED - E */
+
+@media screen and (max-width : 1200px) {
+  /* VISUAL - S */
+  .visual {
+    width: 100%;
+    height: 700px;
+    background: url(/haribo/img/produktion_mitarbeiterin_figuren.png) no-repeat 50% 50% / cover;
+  }
+  .red-card {
+    height: 450px;
+  }
+  .red-card h3 {
+    padding: 90px 0 0 40px;
+    width: 340px;
+    font-size: 45px;
+  }
+  .red-card p {
+    padding: 30px 0 0 60px;
+    width: 60%;
+  }
+  /* VISUAL - E */
+
+  /* jelly-text - S */
+  .jelly-text .inner {
+    height: 2100px;
+    padding-top: 150px;
+  }
+  .jelly-text-header h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #d8232a;
+    padding: 40px 0;
+  }
+  .jelly-text-header .jelly-text-main {
+    padding: 10px 0 0 50px;
+    width: 80%;
+  }
+  .jelly-text-header .jelly-text-main h4 {
+    font-size: 25px;
+    /* font-weight: 700;
+  color: #000; */
+  }
+  .jelly-text-header .jelly-text-main p {
+    font-size: 17px;
+    /* font-weight: 300;
+  color: #000; */
+    line-height: 30px;
+    padding: 20px 0;
+  }
+  /* jelly-text - E */
+  /* COMPONENT - S */
+  .component-inner {
+    display: block;
+  }
+  .component-box {
+    height: 300px;
+    /* background-color: #bd8e1d; */
+  }
+  .component-box .component-tit {
+    padding: 0 20px;
+  }
+  .component-box .component-tit h3 {
+    /* font-weight: 700; */
+    font-size: 80px;
+    /* color: #ffeb06; */
+  }
+  .question-box {
+    flex-direction: column;
+  }
+  .question-box figure {
+    text-align: center;
+  }
+  .question-box figure img {
+    padding: 45px 0;
+  }
+  .question-tit {
+    width: 80%;
+  }
+  .question-tit h3 {
+    padding-bottom: 35px;
+    font-size: 50px;
+  }
+  .question-tit p {
+    padding: 0 0 20px 20px;
+    font-size: 23px;
+    /* font-weight: 700;
+  color: #ffeb06; */
+  }
+  .question-tit span {
+    padding: 0 0 20px 20px;
+  }
+  .question-tit .more {
+    padding-bottom: 45px;
+  }
+  .question-tit .more span {
+    font-size: 25px;
+  }
+  /* QUESTION - E */
+  /* RELATED - S */
+  .related .inner {
+    width: 80%;
+    height: 1100px;
+  }
+  .related-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    gap: 20px;
+  }
+  .related-wrap .more {
+    /* text-decoration: none; */
+    display: flex;
+    gap: 100px;
+  }
+  .related-excellence .more {
+    flex-direction: row-reverse;
+  }
+  .related-tit p {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .related-tit span {
+    font-size: 25px;
+    /* font-weight: 700;
+  color: #000;
+  margin: 50px 0 40px 0; */
+  }
+  .related-wrap .more:hover svg {
+    transform: translateX(12px)
+  }
+  /* RELATED - E */
+}
+@media screen and (max-width : 780px) {
+  /* VISUAL - S */
+  .red-card h3 {
+    padding: 90px 0 0 40px;
+    width: 310px;
+    font-size: 40px;
+  }
+  .visual-inner .visual-bear {
+    display: none;
+  }
+
+  /* VISUAL - E */
+
+  /* jelly-text - S */
+  .jelly-text .inner {
+    width: 90%;
+    /* max-width: 1600px;
+  margin: 0 auto; */
+    height: 2000px;
+    padding-top: 150px;
+  }
+  .jelly-text-header h2 {
+    font-size: 50px;
+    margin: 0 auto;
+  }
+  .jelly-text-header .jelly-text-main {
+    margin: 0 auto;
+    width: 80%;
+    padding: 0;
+  }
+  .jelly-text-header .jelly-text-main h4 {
+    font-size: 25px;
+  }
+  .jelly-text-header .jelly-text-main p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #000;
+    line-height: 20px;
+    padding: 10px 0;
+  }
+  .jelly-text-main p:nth-child(6) {
+    padding: 0 0 40px 0;
+  }
+  .swiper {
+    height: 600px;
+    padding-top: 60px;
+  }
+  .swiper-slide img {
+    height: 500px;
+  }
+  .swiper-slide p {
+    width: 100%;
+  }
+  /* jelly-text - E */
+  /* QUESTION - S */
+  .question-box figure {
+    text-align: center;
+  }
+  .question-box figure img {
+    width: 90%;
+    padding: 30px 0;
+  }
+  .question-tit {
+    padding-left: 20px;
+  }
+  .question-tit h3 {
+    padding-bottom: 28px;
+    font-size: 40px;
+  }
+  .question-tit p {
+    padding: 0 0 15px 20px;
+    font-size: 23px;
+  }
+  .question-tit span {
+    padding: 0 0 15px 20px;
+    font-size: 16px;
+  }
+  .question-tit .more {
+    padding-bottom: 30px;
+  }
+  /* QUESTION - E */
+  /* RELATED - S */
+  .related .inner {
+    height: 1500px;
+  }
+  .related-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    gap: 10px;
+  }
+  .related-wrap .more {
+    justify-content: center;
+    /* text-decoration: none; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .related-excellence .more {
+    flex-direction: unset;
+  }
+  .related-tit p {
+    padding: 10px 0 40px 0;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  /* RELATED - E */
+}

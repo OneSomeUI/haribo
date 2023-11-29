@@ -1,0 +1,527 @@
+@charset "UTF-8";
+
+/* VISUAL - S */
+.video-wrap {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background: no-repeat center center / cover;
+  min-width: 1180px;
+}
+.video-wrap video {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.video-wrap figcaption {
+  width: 80%;
+  max-width: 1600px;
+  margin: 250px 10%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 10;
+}
+.video-wrap figcaption .tit {
+  width: 600px;
+  font-weight: 700;
+  font-size: 60px;
+  color: #fff;
+}
+.video-wrap figcaption .more {
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  margin: 35px 0 0 0;
+}
+.video-wrap figcaption .more svg {
+  fill: #ffeb06;
+  width: 89px;
+  height: 25px;
+  transition: all 0.2s;
+}
+.video-wrap figcaption .more:hover svg {
+  transform: translateX(12px)
+}
+/* VISUAL - E */
+
+/* QUALITY - S */
+.quality {
+  padding-top: 100px;
+}
+.quality-inner {
+  display: flex;
+}
+.quality-inner figure {
+  flex: 1;
+}
+.quality-inner figure img {
+  height: 700px;
+}
+.quality-box {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #78be21;
+}
+.quality .quality-inner:nth-child(1) {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.quality .quality-inner:nth-child(1) .quality-box {
+  background-color: #e0384f;
+}
+.quality-tit {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.quality .quality-inner:nth-child(1) .quality-tit h3 {
+  font-size: 80px;
+}
+.quality-inner .quality-tit h3 {
+  font-weight: 700;
+  font-size: 100px;
+  color: #ffeb06;
+  padding-bottom: 50px;
+}
+.quality-inner .quality-tit p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 23px;
+  color: #fff;
+  padding-bottom: 50px;
+}
+.quality-tit .more span {
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  margin: 35px 0 0 20px;
+}
+.quality-tit .more svg {
+  fill: #ffeb06;
+  width: 89px;
+  height: 25px;
+  transition: all 0.2s;
+}
+.quality-tit .more:hover svg {
+  transform: translateX(12px)
+}
+/* QUALITY - E */
+
+/* INQUIRY - S */
+.inquiry {
+  padding: 160px 0;
+}
+.inquiry .inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+.inquiry .inner figure {
+  overflow: hidden;
+  border-radius: 3000px 1300px 1500px 1500px / 1500px 1500px 1500px 2000px;
+  width: 43%;
+}
+.inquiry-tit {
+  width: 43%;
+}
+.inquiry-tit h3 {
+  font-weight: 700;
+  font-size: 60px;
+  color: #005ca9;
+  padding-bottom: 50px;
+}
+.inquiry-tit p {
+  font-weight: 500;
+  font-size: 18px;
+  color: #000;
+  padding-bottom: 50px;
+}
+.inquiry-tit .more span {
+  font-weight: 700;
+  font-size: 30px;
+  color: #000;
+  margin: 35px 0 0 20px;
+}
+.inquiry-tit .more svg {
+  fill: #d8232a;
+  width: 89px;
+  height: 25px;
+  transition: all 0.2s;
+}
+.inquiry-tit .more:hover svg {
+  transform: translateX(12px)
+}
+/* INQUIRY - E */
+
+/* QUESTION - S */
+.question {
+  background-color: #005da9;
+  height: 100%;
+}
+.question .inner {
+  width: 80%;
+}
+.question-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.question-box figure img {
+  padding: 100px 0;
+  width: 100%;
+  border-radius: 900px 868px 867px 518px / 1079px 1656px 841px 908px;
+}
+.question-tit {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 60px;
+}
+.question-tit h3 {
+  padding-bottom: 40px;
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+}
+.question-tit p {
+  font-weight: 700;
+  padding: 0 0 30px 30px;
+  font-size: 30px;
+  color: #ffeb06;
+}
+.question-tit span {
+  padding: 0 0 30px 30px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+}
+.question-tit .more span {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  margin: 50px 0 40px 0;
+}
+.question-tit .more svg {
+  fill: #ffeb06;
+  width: 89px;
+  height: 25px;
+  transition: all 0.2s;
+}
+.question-tit .more:hover svg {
+  transform: translateX(12px)
+}
+/* QUESTION - E */
+
+/* PROSUCT - S */
+.product .inner {
+  height: 1000px;
+  width: 80%;
+}
+.product .inner h2 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #005ca9;
+  padding: 150px 0 50px 0;
+}
+.swiper {
+  width: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 600px;
+  padding: 50px 12px 50px 13px;
+}
+.swiper-slide:nth-child(1) a {
+  transform: rotate(5deg);
+  transition: all 0.3s;
+}
+.swiper-slide:nth-child(2) a {
+  transform: rotate(-5deg);
+  transition: all 0.3s;
+}
+.swiper-slide:nth-child(3) a {
+  transform: rotate(5deg);
+  transition: all 0.3s;
+}
+.swiper-slide:nth-child(4) a {
+  transform: rotate(-5deg);
+  transition: all 0.3s;
+}
+.swiper-slide:nth-child(5) a {
+  transform: rotate(5deg);
+  transition: all 0.3s;
+}
+.swiper-slide:nth-child(6) a {
+  transform: rotate(-5deg);
+  transition: all 0.3s;
+}
+.swiper-slide:nth-child(7) a {
+  transform: rotate(5deg);
+  transition: all 0.3s;
+}
+.swiper-slide:nth-child(8) a {
+  transform: rotate(-5deg);
+  transition: all 0.3s;
+}
+.swiper-slide a:hover {
+  transform: rotate(0deg) scale(1.1);
+}
+.swiper-horizontal > .swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal, .swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite, .swiper-vertical > .swiper-pagination-progressbar {
+  display: flex;
+}
+.swiper-horizontal > .swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal, .swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite, .swiper-vertical > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
+  width: 60%;
+  left: 20%;
+  top: 590px;
+}
+/* PROSUCT - E */
+
+@media screen and (max-width : 1200px) {
+
+  /* VISUAL - S */
+  .video-wrap {
+    min-width: 400px;
+  }
+  .video-wrap figcaption {
+    width: 80%;
+    max-width: 1600px;
+    margin: 250px 10%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+  }
+  .video-wrap figcaption .tit {
+    /* font-weight: 700; */
+    font-size: 52px;
+    /* color: #fff; */
+  }
+  /* VISUAL - E */
+
+  /* QUALITY - S */
+  .quality-inner {
+    display: block;
+    flex: 1 1;
+  }
+  .quality-inner figure {
+    flex: 0;
+  }
+  .quality-box {
+    flex: 0;
+    padding: 50px 0 75px 0;
+  }
+  .quality .quality-inner:nth-child(1) {
+    display: unset;
+  }
+  .quality .quality-inner:nth-child(1) .quality-tit h3 {
+    font-size: 70px;
+  }
+  /* QUALITY - E */
+
+  /* INQUIRY - S */
+  .inquiry {
+    padding: 100px 0;
+  }
+  .inquiry .inner {
+    /* display: flex; */
+    flex-direction: column-reverse;
+    /* width: 80%; */
+  }
+  .inquiry .inner figure {
+    width: 88%;
+  }
+  .inquiry-tit {
+    display: block;
+    width: 80%;
+  }
+  .inquiry-tit h3 {
+    /* font-weight: 700; */
+    font-size: 40px;
+    /* color: #005ca9; */
+    padding: 30px 0;
+  }
+  .inquiry-tit p {
+    /* font-weight: 500; */
+    font-size: 16px;
+    /* color: #000; */
+    padding-bottom: 30px;
+  }
+  .inquiry-tit .more span {
+    /* font-weight: 700; */
+    font-size: 25px;
+    /* color: #000;
+  margin: 35px 0 0 20px; */
+  }
+  /* INQUIRY - E */
+
+  /* QUESTION - S */
+  .question-box {
+    flex-direction: column;
+  }
+  .question-box figure {
+    text-align: center;
+  }
+  .question-box figure img {
+    padding: 45px 0;
+  }
+  .question-tit {
+    width: 80%;
+  }
+  .question-tit h3 {
+    padding-bottom: 35px;
+    font-size: 50px;
+  }
+  .question-tit p {
+    padding: 0 0 20px 20px;
+    font-size: 23px;
+  }
+  .question-tit span {
+    padding: 0 0 20px 20px;
+    /* font-weight: 500;
+  font-size: 18px;
+  color: #fff; */
+  }
+  .question-tit .more {
+    padding-bottom: 45px;
+  }
+  .question-tit .more span {
+    font-size: 25px;
+  }
+  .swiper-horizontal > .swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal, .swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite, .swiper-vertical > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
+    /* width: 60%;
+  left: 20%; */
+    top: 590px;
+  }
+  /* PROSUCT - E */
+}
+@media screen and (max-width : 780px) {
+  /* VISUAL - S */
+
+  .video-wrap figcaption {
+    margin: 250px 0;
+    padding-left: 7%;
+  }
+  .video-wrap figcaption .tit {
+    font-size: 50px;
+    width: 400px;
+  }
+  .video-wrap figcaption .more {
+    font-size: 25px;
+  }
+  /* VISUAL - E */
+  /* QUALITY - S */
+  .quality-inner {
+    display: block;
+    flex: 1 1;
+  }
+  .quality-inner figure {
+    flex: 0;
+  }
+  .quality-inner figure img {
+    height: 500px;
+  }
+  .quality-box {
+    flex: 0;
+    padding: 50px 0 75px 0;
+  }
+  .quality .quality-inner:nth-child(1) {
+    display: unset;
+  }
+  .quality .quality-inner:nth-child(1) .quality-tit h3 {
+    font-size: 40px;
+  }
+  .quality-inner .quality-tit {
+    margin: 20px;
+  }
+  .quality-inner .quality-tit h3 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffeb06;
+    padding-bottom: 50px;
+  }
+  .quality-inner .quality-tit p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    color: #fff;
+    padding-bottom: 50px;
+  }
+  .quality-tit .more span {
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    margin: 35px 0 0 20px;
+  }
+  .quality-tit .more svg {
+    fill: #ffeb06;
+    width: 89px;
+    height: 25px;
+    transition: all 0.2s;
+  }
+  .quality-tit .more:hover svg {
+    transform: translateX(12px)
+  }
+  /* QUALITY - E */
+
+  /* INQUIRY - S */
+  .inquiry {
+    padding: 70px 0;
+  }
+  .inquiry .inner figure {
+    width: 90%;
+  }
+  .inquiry-tit h3 {
+    font-size: 30px;
+    padding: 20px 0;
+  }
+  .inquiry-tit p {
+    padding-bottom: 20px;
+  }
+  .inquiry-tit .more span {
+    font-size: 23px;
+  }
+  /* INQUIRY - E */
+
+  /* QUESTION - S */
+  .question-box figure {
+    text-align: center;
+  }
+  .question-box figure img {
+    width: 90%;
+    padding: 30px 0;
+  }
+  .question-tit {
+    padding-left: 20px;
+  }
+  .question-tit h3 {
+    padding-bottom: 28px;
+    font-size: 40px;
+  }
+  .question-tit p {
+    padding: 0 0 15px 20px;
+    font-size: 23px;
+  }
+  .question-tit span {
+    padding: 0 0 15px 20px;
+    font-size: 16px;
+  }
+  .question-tit .more {
+    padding-bottom: 30px;
+  }
+  /* QUESTION - E */
+  /* PROSUCT - S */
+  .product .inner h2 {
+    font-size: 45px;
+  }
+  /* PROSUCT - E */
+}
